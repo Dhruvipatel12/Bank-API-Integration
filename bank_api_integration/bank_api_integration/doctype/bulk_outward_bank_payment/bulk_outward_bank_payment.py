@@ -8,7 +8,7 @@ from frappe import _
 from frappe.model.document import Document
 from frappe.utils import flt
 from frappe.model.mapper import get_mapped_doc
-from frappe.core.page.background_jobs.background_jobs import get_info
+# from frappe.core.page.background_jobs.background_jobs import get_info
 from frappe.utils.background_jobs import enqueue
 from bank_api_integration.bank_api_integration.doctype.bank_api_integration.bank_api_integration import *
 class BulkOutwardBankPayment(Document):
